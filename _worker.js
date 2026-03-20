@@ -2350,6 +2350,9 @@ async function nginx() {
 	<head>
 	<title>Welcome to nginx!</title>
 	<style>
+		html {
+			color-scheme: light dark;
+		}
 		body {
 			width: 35em;
 			margin: 0 auto;
@@ -2393,7 +2396,7 @@ async function html1101(host, 访问IP) {
 <link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
 <!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
 <style>body{margin:0;padding:0}</style>
-
+<style>html{color-scheme:light dark;}</style>
 
 <!--[if gte IE 10]><!-->
 <script>
